@@ -1,0 +1,68 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('../images/image1.jpg');
+ /* background-size: cover;*/
+}
+
+.carousel-image-2 {
+  background: url('../images/image2.jpg');
+   /* background-size: cover;*/
+}
+
+.carousel-image-3 {
+  background: url('../images/image3.jpg');
+  /* background-size: cover;*/
+}
+
+#home-heading {
+  positoin: relative;
+  min-height: 200px;
+  background: url('../images/robert-metz-1487394-unsplash.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align:center;
+  color: #ffffff;
+}
+
+/* .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+} */
+
+ #video-play {
+   position: relative; 
+  min-height: 200px;
+  background: url('../images/william-daigneault-1486499-unsplash.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+    text-align:center;
+  color: grey;  
+} 
+
+ #video-play a {
+  color: grey;
+} 
