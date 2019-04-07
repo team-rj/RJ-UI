@@ -2,6 +2,15 @@ body {
   overflow-x: hidden;
 }
 
+.text{
+    color: white;
+    background-color:black;
+    border-radius: 3px;
+    padding: 7.5px;
+    text-align: center;
+    opacity:0.7;
+}
+
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -20,23 +29,23 @@ body {
 
 .carousel-image-1 {
   background: url('../images/image1.jpg');
- /* background-size: cover;*/
+  background-size: cover;
 }
 
 .carousel-image-2 {
   background: url('../images/image2.jpg');
-   /* background-size: cover;*/
+  /*background-size: cover;*/
 }
 
 .carousel-image-3 {
-  background: url('../images/image3.jpg');
-  /* background-size: cover;*/
+  background: url('../images/zaha-hadid-architecture-05.jpg');
+  background-size: cover;
 }
 
 #home-heading {
   positoin: relative;
   min-height: 200px;
-  background: url('../images/robert-metz-1487394-unsplash.jpg');
+  background: url('../images/zaha-hadid-architecture-01.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align:center;
@@ -53,16 +62,16 @@ body {
 } */
 
  #video-play {
-   position: relative; 
+   position: relative;
   min-height: 200px;
   background: url('../images/william-daigneault-1486499-unsplash.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 0 -300px;
     text-align:center;
-  color: grey;  
-} 
+  color: grey;
+}
 
  #video-play a {
-  color: grey;
-} 
+  color: red;
+}
