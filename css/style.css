@@ -2,13 +2,13 @@ body {
   overflow-x: hidden;
 }
 
-.text{
-    color: white;
-    background-color:black;
-    border-radius: 3px;
-    padding: 7.5px;
-    text-align: center;
-    opacity:0.5;
+.text {
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+  padding: 7.5px;
+  text-align: center;
+  opacity: 0.5;
 }
 
 .navbar .nav-link {
@@ -20,7 +20,6 @@ body {
 
 .navbar .nav-item.active {
   border-left: #444 3px solid;
-
 }
 
 .carousel-item {
@@ -28,27 +27,27 @@ body {
 }
 
 .carousel-image-1 {
-  background: url('../images/image1.jpg');
+  background: url("../images/image1.jpg");
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../images/image1.jpg');
+  background: url("../images/image1.jpg");
   /*background-size: cover;*/
 }
 
 .carousel-image-3 {
-  background: url('../images/images.jpeg');
+  background: url("../images/images.jpeg");
   background-size: cover;
 }
 
 #home-heading {
   positoin: relative;
   min-height: 200px;
-  background: url('../images/zaha-hadid-architecture-01.jpg');
+  background: url("../images/zaha-hadid-architecture-05.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  text-align:center;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -61,17 +60,33 @@ body {
   background: black;
 } */
 
- #video-play {
-   position: relative;
+#video-play {
+  position: relative;
   min-height: 200px;
-  background: url('../images/william-daigneault-1486499-unsplash.jpg');
+  background: url("../images/william-daigneault-1486499-unsplash.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 0 -300px;
-    text-align:center;
+  text-align: center;
   color: grey;
 }
 
- #video-play a {
+#video-play a {
   color: red;
+}
+
+.fa-facebook:before {
+  font-size: 24px;
+}
+
+.fa-twitter-square:before {
+  font-size: 24px;
+}
+
+.fa-instagram:before {
+  font-size: 24px;
+}
+
+.fa-google-plus-square:before {
+  font-size: 24px;
 }
